@@ -53,13 +53,14 @@ function progress(callback) {
     setTimeout(() => {
         if (rslt <= 33) {
             console.log(`you are fail`);
-            console.log(callback());
+            // console.log(callback());
+            // look i mute this call. that's why it will not excuate this func. But you will see i call this certificate func down bellow. But didn't excuate. That's why it called callback.. You have controll when you invoke it.
         } else if (rslt <= 50) {
             console.log(`good enough more pratice`);
-            console.log(callback());
+            // console.log(callback());
         } else if (rslt <= 80){
             console.log(`You got talent pool access`);
-            console.log(callback());
+            // console.log(callback());
         }
     }, 3000);
 }
