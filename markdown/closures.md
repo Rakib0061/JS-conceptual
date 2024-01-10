@@ -124,8 +124,9 @@ function increaser3() {
 
 let inside = increaser3();
 console.dir(inside);
-console.log(inside());
+console.log(inside()); 
 ```
+Interesting fact i got. function is an special type of object. and we know object are take **HEAP** data stratcher. Thats why this an refrence value. So we ```indide()``` call it will chenge the ```console.dir(inside);``` value of clouser. Beacause we know refrence value can manupulate. But **primitive value** not
 
 **ai kahne akta besoy khayel korar moto ami inside dir korce oitatea closure 201 show kortcea. But i call this func next line. actually aita hochea variable ta memory jai jaygai save hoia asea amra func ta call korea concole print daktea daktea memory oi particular place a change hoia gasea. taie amon ta show kore**
 
