@@ -3,3 +3,5 @@ import {loop} from './JS/loop.js'
 import {closures} from './JS/closures.js'
 import { callback } from './JS/callback.js'
 import { prototype } from './JS/prototype.js'
+import { hoisting } from "./JS/hoisting.js"
+
