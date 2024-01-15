@@ -27,6 +27,6 @@ let seen_c;
 var seen_cd;
 
 // const aitar jonno syntax error dbea karon cosnt aivabea liktaie debea na
-seen_d = 100;;
-console.log(seen_d);
+// seen_d = 100;
+// console.log(seen_d);
 // const seen_d;
